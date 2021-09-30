@@ -1,4 +1,4 @@
-NitroGenerator
+AccountNuker
 ==========
 
 A discord account nuker written in python.
