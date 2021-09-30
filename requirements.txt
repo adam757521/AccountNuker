@@ -1,0 +1,3 @@
+discord.py-self
+colorama~=0.4.4
+aiohttp~=3.7.4.post0
