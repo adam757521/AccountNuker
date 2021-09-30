@@ -7,7 +7,6 @@ Features
 -------------
 
 - Name, Avatar, Status, Language, Theme changer.
-- Find location by token.
 - Friend remover.
 - Channel mass DM.
 - Guild leaver.
@@ -15,7 +14,7 @@ Features
 
 TODO
 -------------
-- Add threading to make theme, language change every second, make guild leaver | guild creator faster.
+- ~~Add threading to make theme, language change every second, make guild leaver | guild creator faster~~ - IMPLEMENTED
 
 Disclaimer
 -------------
