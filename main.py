@@ -289,13 +289,12 @@ class AccountNuker(commands.Bot):
         await super().start(self.token)
 
 
-print(f"{Fore.CYAN}Please enter a discord token.{Fore.WHITE}")
-token = input("[USER] --> ")
-
-bot = AccountNuker(token=token, command_prefix="<<<", self_bot=True, help_command=None)
-
-
 if __name__ == "__main__":
+    print(f"{Fore.CYAN}Please enter a discord token.{Fore.WHITE}")
+    token = input("[USER] --> ")
+
+    bot = AccountNuker(token=token, command_prefix="<<<", self_bot=True, help_command=None)
+    
     try:
         terminal_width = os.get_terminal_size().columns
     except OSError:
